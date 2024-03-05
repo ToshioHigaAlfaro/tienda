@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="menu container">
+            <a href="#" class="logo">Saledu.Shop</a>
+            <input type="checkbox" id="menu" />
+            <label for="menu">
+                <img src="images/menu.png" class="menu-icono" alt="menu">
+            </label>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#">inicio</a></li>
+                    <li><a href="#">servicio</a></li>
+                    <li><a href="#lista-1">producto</a></li>
+                    <li><a href="#loca">contacto</a></li>
+                </ul>
+            </nav>
+            <div>
+                <ul>
+                    <li class="submenu">
+                        <img src="images/car.svg" id="img-carrito" alt="carrito">
+                        <div id="carrito">
+                            <table id="lista-carrito">
+                                <thead>
+                                    <tr>
+                                        <th>imagen</th>
+                                        <th>nombre</th>
+                                        <th>precio</th>
+                                        <th></th>
+                                    </tr>
+                                </thead>
+                                <tbody></tbody>
+                            </table> 
+                            <a href="#" id="vaciar-carrito" class="btn-2">vaciar carrito</a>                           
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="header-content container">
+            <div class="header-img">
+                <img src="images/aña.jpg" alt="">
+            </div>
+        </div>
+
+    </header>
+
+    <section class="ofert container">
+        <div class="ofert-1">
+            <div class="ofert-img">
+                <img src="images/hola-removebg-preview.png" alt="">
+            </div>
+            <div class="ofert-txt">
+                <h3>Gaseovet Suspensión Gotas</h3>
+                <a href="#" class="btn-2">información</a>
+            </div>
+        </div>
+
+        <div class="ofert-1">
+            <div class="ofert-img">
+                <img src="images/024242L-removebg-preview.png" alt="">
+            </div>
+            <div class="ofert-txt">
+                <h3>Bicarbonato de sodio</h3>
+                <a href="#" class="btn-2">información</a>
+            </div>
+        </div>
+
+        <div class="ofert-1">
+            <div class="ofert-img">
+                <img src="images/009640L-removebg-preview.png" alt="">
+            </div>
+            <div class="ofert-txt">
+                <h3>BioGaia Protectis</h3>
+                <a href="#" class="btn-2">información</a>
+            </div>
+        </div>
+    </section>
+
+    <main class="products container" id="lista-1">
+
+        <h2>productos</h2>
+
+        <section class="icons container">
+
+            <div class="icon-1">
+                <div class="icon-img">
+                    <img src="images/logo-Festival_80x80.png" alt="">
+                </div>
+                <div class="icon-txt">
+                    <h3>Farmacia</h3>
+                </div>
+            </div>
+            <div class="icon-1">
+                <div class="icon-img">
+                    <img src="images/Formula_infantil_Icon.png" alt="">
+                </div>
+                <div class="icon-txt">
+                    <h3>Fórmulas Infantiles</h3>
+                </div>
+            </div>
+            <div class="icon-1">
+                <div class="icon-img">
+                    <img src="images/Tienda_Belleza_Icon.png" alt="">
+                </div>
+                <div class="icon-txt">
+                    <h3>Bienestar Personal</h3>
+                </div>
+            </div>
+        </section>
+
+        <div class="product-content">
+            <div class="product">
+                <img src="images/paracetamol.jpg" alt="">
+                <div class="product-txt">
+                    <h3>Paracetamol 120mg/5ml Jarabe</h3>
+                    <p>Analgésico, Antipirético</p>
+                    <p class="precio">S/ 1.70</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="1">agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="images/bebe.jpg" alt="">
+                <div class="product-txt">
+                    <h3>Panadol 100mg/ml Solución oral gotas</h3>
+                    <p>Alivia el dolor de cabeza, garganta, muscular, musculoesquelético, de la dentición, y post vacunación.</p>
+                    <p class="precio">S/ 10.50</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="2">agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="images/germina.jpg" alt="">
+                <div class="product-txt">
+                    <h3>Enterogermina Suspensión Oral</h3>
+                    <p>FRASCO BEBIBLE 1 UN</p>
+                    <p class="precio">S/ 2.16</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="3">agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="images/panadol.jpg" alt="">
+                <div class="product-txt">
+                    <h3>Panadol Forte Tableta</h3>
+                    <p>SOBRE X2 TABS 1 UN</p>
+                    <p class="precio">S/ 30.77</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="4">agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="images/jarabe.jpg" alt="">
+                <div class="product-txt">
+                    <h3>Vick 44 Jarabe</h3>
+                    <p>Vick 44 Jarabe alivia la tos seca y con flema con sabor cereza, para todo tipo de tos,no genera somnolencia</p>
+                    <p class="precio">S/ 12.99</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="5">agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="images/antibiotico.jpg" alt="">
+                <div class="product-txt">
+                    <h3>Multi-bioticos Pastilla dura con sabor a Naranja</h3>
+                    <p>UNIDAD 1 UN</p>              
+                    <p class="precio">S/ 2.96</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="6">agregar al carrito</a>               
+                </div>
+            </div>
+
+        </div>
+
+    </main>
+    <section class="blog container">
+        <div class="blog-1">
+            <img src="images/Eucerin-dermocosmetica-inkafarma-bx3-web_01.jpg" alt="">           
+        </div>
+        <div class="blog-1">
+            <img src="images/ddd.jpg" alt="">          
+        </div>
+        <div class="blog-1">
+            <img src="images/ssd.jpg" alt="">           
+        </div>
+    </section>
+
+    <footer class="footer" id="loca">
+        <div class="footer-content container">
+            <div class="link">
+                <h3>Nuestra Compañía</h3>
+                <ul>
+                    <li><a href="#">Sobre Nosotros</a></li>
+                    <li><a href="#">Tiendas Urban Rider</a></li>
+                    <li><a href="#">Métodos de pago</a></li>
+                    <li><a href="#">Realiza tus compras de forma segura</a></li>
+                </ul>
+            </div>
+            <div class="link">
+                <h3>Servicios al Cliente</h3>
+                <ul>
+                    <li><a href="#">Canales de atención</a></li>
+                    <li><a href="#">Compra fácil y seguro</a></li>
+                    <li><a href="#">Métodos de pago</a></li>
+                    <li><a href="https://maps.app.goo.gl/3qhXMGwfsUFWuDwg6" target="_blank">Lugar: C. La Huega 41, Ica 11001</a></li>
+                </ul>
+            </div>
+            <div class="link">
+                <h3>Atención al Cliente</h3>
+                <ul>
+                    <li><a href="#">Lun. - Sáb. de 9:00 am a 6:00 pm</a></li>
+                    <li><a href="mailto:email@email.com" target="_blank">servicioalcliente@Saledu.onlyperu.com</a></li>
+                    <li><a href="#">Libro de Reclamaciones</a></li>
+                    <li><a href="#">Razón social: mondongo Peru S.A.C.</a></li>
+                </ul>
+            </div>
+            <div class="link">
+                <h3>Ventas Corporativas</h3>
+                <ul>
+                    <li><a href="https://wa.link/efke7a" target="_blank">922 498 790</a></li>
+                    <li><a href="https://wa.link/4w0j0t" target="_blank">932 021 504</a></li>
+                    <li><a href="https://wa.link/8s6bsl" target="_blank">992 705 242</a></li>
+                    <li><a href="https://wa.link/egjslh" target="_blank">970 758 624</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <script src="scrip.js"></script>
+</body>
+</html>
+
+
+<a target="_blank" href="" id="" blockclass="social-footer-link" link="[object Object]" title="Youtube" rel="noopener" class="vtex-menu-2-x-styledLink vtex-menu-2-x-styledLink--social-footer-link no-underline pointer t-body c-on-base pointer"><div class="vtex-menu-2-x-styledLinkContent vtex-menu-2-x-styledLinkContent--social-footer-link flex justify-between nowrap"><span class="vtex-menu-2-x-styledLinkIcon vtex-menu-2-x-styledLinkIcon--social-footer-link mh2" data-testid="icon-left"><svg fill="none" width="20" height="20" viewBox="0 0 800 400" class="fb-footer-icon " xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><use href="#yt-footer" xlink:href="#yt-footer"></use></svg></span></div></a>
